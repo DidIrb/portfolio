@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   .map(
                     (badge) => `
                   <a href="${badge.link}" target="_blank" class="badge badge-icon" style="">
-                    <img style="filter: invert(1);" width: "12px" height: "12px" src="${badge.badgeIcon}" alt="Badge Icon">
+                    <img style="filter: invert(1);"  src="${badge.badgeIcon}" width="12px" height: "12px" alt="Badge Icon">
                     ${badge.badgeText}
                   </a>
                 `
@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("db/app.json")
     .then((response) => response.json())
     .then((data) => {
+      console.log(data)
       const menuContainer = document.getElementById("menu");
       
       data.menu.forEach((item) => {
@@ -79,6 +80,19 @@ document.addEventListener("DOMContentLoaded", () => {
             <img class="icon" src="${contact.icon}" width="24px" height="24px" alt="${contact.alt}" />
           </a>`;
         contactsContainer.appendChild(contactDiv);
+      });
+
+      // Render the education content here 
+      const experienceContainer = document.getElementById("experience-section");
+      data.experience.forEach((experience) => {
+        const experienceDiv = document.createElement("div");
+        experienceDiv.innerHTML = `
+           <div class="experience">
+            <h2 class="name">${experience.name}</h2>
+            <div class="timeline">${experience.timeline}</div>
+          </div>
+          `;
+          experienceContainer.appendChild(experienceDiv);
       });
     })
     .catch((error) => console.error("Error fetching data:", error));
