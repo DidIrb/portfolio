@@ -1,9 +1,7 @@
 ## Minimalistic Portfolio 
 
 You do not need to use react to build an overly complicated portfolio, using Angular, React, Next or other frameworks, a simple html css portfolio is all you need.
-
 This portfolio is built using JavaScript HTML, and CSS.
-
 Data is rendered dynamically, but in this case the data is available inside a JSON file.
 
 ### What is Available
@@ -19,7 +17,7 @@ This houses all of our custom css
 
 **javascript** `script.js`
 This is where we get the data and render it the html file.
-
+**search engine optimization** `robots.txt` `sitemap.xml`
 ### How to use
 
 Clone this repository
