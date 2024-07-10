@@ -1,8 +1,12 @@
-## Minimalistic Portfolio 
+## Minimalistic Portfolio
 
 You do not need to use react to build an overly complicated portfolio, using Angular, React, Next or other frameworks, a simple html css portfolio is all you need.
 This portfolio is built using JavaScript HTML, and CSS.
 Data is rendered dynamically, but in this case the data is available inside a JSON file.
+
+##### SEO Ready
+
+![SEO performance](public/images/perfomance.jpg?raw=true "Title")
 
 ### What is Available
 
@@ -12,12 +16,13 @@ Render the data availed, like the users skills, and projects
 **db folder** `app.json, data.json `
 This files contain the data we are going to render in our markup
 
-**css folder** 
+**css folder**
 This houses all of our custom css
 
 **javascript** `script.js`
 This is where we get the data and render it the html file.
 **search engine optimization** `robots.txt` `sitemap.xml`
+
 ### How to use
 
 Clone this repository
@@ -95,26 +100,67 @@ Open `db/app.json` and edit the file to add an additional menu for navigation
 
 Open the html file and add a new section like this in our case we are adding experience
 
-We are going to add experience section in this example 
+We are going to add experience section in this example
 
 ```
 <section id="skills"></section>
-<!-- Your code goes here  --> 
+<!-- Your code goes here  -->
 <section id="experience"></section>
 <section id="projects"></section>
 ```
 
 You are going to design the markup and use css to style it than once you are done
 
-open `db/app.json`
+```
+<section id="experience">
+  <div class="experience-section flex-row">
+    <h2 class="name"></h2>
+    <div class="timeline"></div>
+  </div>
+</section>
+```
+open `db/app.json` add a new object based on the design you have
 
-add a new object based on the design you have
+```
+// other objects above
+{
+"experience" : 
+    [
+        {
+            "name": "company 1",
+            "timeline": "company 2"
+        },
+        // add more here
+    ]
+}
+```
 
 open `script.js`
 
 Here now you are going to get the json data and append the data into the section you just created
 
-And like that you have added another section, 
+now remove the html code from index.html as we are going to use javascript to loop though and append the data using the id of the section which is `education` update the js file like this
+
+
+```
+// Render the education content here 
+  const experienceContainer = 
+  document.getElementById("experience-section");
+  data.experience.forEach((experience) => {
+    const experienceDiv = document.createElement("div");
+    experienceDiv.innerHTML = `
+        <div class="experience">
+        <h2 class="name">${experience.name}</h2>
+        <div class="timeline">${experience.timeline}</div>
+      </div>
+      `;
+      experienceContainer.appendChild(experienceDiv);
+  });
+```
+
+
+And like that you have added another section,
+
 <!-- I kind of got tired writing this so you can update it if you want -->
 
 ## License
