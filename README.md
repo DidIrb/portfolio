@@ -20,9 +20,6 @@ This houses all of our custom css
 **javascript** `script.js`
 This is where we get the data and render it the html file.
 
-**Custom font** `Geist-Regular.woff`
-Google font CDN is not GDPR compliant so you need to download and install it in your project, we installed geist font in this portfolio
-
 ### How to use
 
 Clone this repository

@@ -7,15 +7,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: "geist";
-  src: url("/public/Geist-Regular.woff") format("woff");
-}
 html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "geist", sans-serif;
+  font-family: cursive, sans-serif;
   font-size: 15px;
   min-height: 100vh;
   padding-bottom: 20px;
@@ -156,8 +152,24 @@ body section {
   gap: 16px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   body {
-    background-color: lightblue;
+    padding-bottom: 70px;
+  }
+  .project-container {
+    width: 100%;
+  }
+  body section {
+    max-width: 90%;
+  }
+  #contact-list {
+    justify-content: center;
+    text-align: center;
+  }
+  #contacts {
+    text-align: center;
+  }
+  .icon {
+    width: 18px;
   }
 }
