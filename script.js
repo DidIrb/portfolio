@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         projectDiv.classList.add("project-container");
         projectDiv.innerHTML = `
             <div class="image">
-              <img src="${project.image}" width="200px" height="200px" alt="${project.name} icon">
+              <img src="${project.image}" alt="${project.name} icon">
             </div>
             <div class="flex-col-between">
             <div class="content">
