@@ -1,0 +1,52 @@
+{
+    "menu": [
+        {
+            "link": "#home",
+            "tooltip": "Home",
+            "icon": "/public/icons/home.svg",
+            "alt": "Home icon"
+        },
+        {
+            "link": "#about",
+            "tooltip": "About",
+            "icon": "/public/icons/about-me.svg",
+            "alt": "About me"
+        },
+        {
+            "link": "https://docs.google.com/document/d/1tAGXlTvN81zvfqx8hGZoRlylQEKZ3Cea/edit",
+            "tooltip": "Resume",
+            "icon": "/public/icons/document.svg",
+            "alt": "Resume icon"
+        },
+        {
+            "link": "#projects",
+            "tooltip": "Recent Projects",
+            "icon": "/public/icons/projects-min.svg",
+            "alt": "Projects"
+        },
+        {
+            "link": "#contacts",
+            "tooltip": "Contacts",
+            "icon": "/public/icons/mail.svg",
+            "alt": "Contacts"
+        }
+    ],
+    "contacts" : 
+    [
+        {
+            "link": "https://github.com/didIrb",
+            "icon": "/public/icons/github.svg",
+            "alt": "github icon"
+        },
+        {
+            "link": "https://www.linkedin.com/in/dida-irbaye/",
+            "icon": "/public/icons/linkedin.svg",
+            "alt": "linkedin icon"
+        },
+        {
+            "link": "https://x.com/irbayedida",
+            "icon": "/public/icons/twitter.svg",
+            "alt": "twitter icon"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "name": "Trackey",
+      "timeline": "Jan 2024 - Feb 2024",
+      "description": "This is a simple web application that allows users to document their job application, and visualizes the data as time goes on, it has resources like templates it is privacy focused and no data is saved",
+      "image": "/public/images/trackey-min.jpg",
+      "light": ["Next Js", "Typescript"],
+      "links": [
+        {
+          "badgeIcon": "/public/icons/web.svg",
+          "badgeText": "Website",
+          "link": "https://trackey.vercel.app"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    { "name": "HTML" },
+    { "name": "CSS" },
+    { "name": "TypeScript" },
+    { "name": "React" },
+    { "name": "Angular" },
+    { "name": "Express" },
+    { "name": "Sequelize" },
+    { "name": "Spring-boot" },
+    { "name": "Supabase" },
+    { "name": "MySQL" },
+    { "name": "Java" }
+  ]
+}
