@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   .map(
                     (badge) => `
                   <a href="${badge.link}" target="_blank" class="badge badge-icon" style="">
-                    <img style="filter: invert(1); width: "12px" height: "12px" src="${badge.badgeIcon}" alt="Badge Icon">
+                    <img style="filter: invert(1);" width: "12px" height: "12px" src="${badge.badgeIcon}" alt="Badge Icon">
                     ${badge.badgeText}
                   </a>
                 `
