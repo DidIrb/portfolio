@@ -6,7 +6,7 @@ Data is rendered dynamically, but in this case the data is available inside a JS
 
 ##### SEO Ready
 
-![SEO performance](public/images/perfomance.jpg?raw=true "Title")
+![SEO performance](./public/images/perfomance.jpg?raw=true "Title")
 
 ### What is Available
 
