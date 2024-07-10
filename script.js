@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
         itemDiv.innerHTML = `
         <a href="${item.link}" tooltip="${item.tooltip}" flow="right">
           <div class="icon">
-            <img src="${item.icon}" alt="${item.alt}" />
+            <img src="${item.icon}"  width="24px" height="24px" alt="${item.alt}" />
           </div>
         </a>`;
         menuContainer.appendChild(itemDiv);
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const contactDiv = document.createElement("div");
         contactDiv.innerHTML = `
           <a href="${contact.link}" target="_blank" >
-            <img class="icon" src="${contact.icon}" alt="${contact.alt}" />
+            <img class="icon" src="${contact.icon}" width="24px" height="24px" alt="${contact.alt}" />
           </a>`;
         contactsContainer.appendChild(contactDiv);
       });
