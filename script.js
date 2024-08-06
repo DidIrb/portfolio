@@ -82,18 +82,18 @@ document.addEventListener("DOMContentLoaded", () => {
         contactsContainer.appendChild(contactDiv);
       });
 
-      // Render the education content here 
-      const experienceContainer = document.getElementById("experience-section");
-      data.experience.forEach((experience) => {
-        const experienceDiv = document.createElement("div");
-        experienceDiv.innerHTML = `
-           <div class="experience">
-            <h2 class="name">${experience.name}</h2>
-            <div class="timeline">${experience.timeline}</div>
-          </div>
-          `;
-          experienceContainer.appendChild(experienceDiv);
-      });
+      // // Render the education content here 
+      // const experienceContainer = document.getElementById("experience-section");
+      // data.experience.forEach((experience) => {
+      //   const experienceDiv = document.createElement("div");
+      //   experienceDiv.innerHTML = `
+      //      <div class="experience">
+      //       <h2 class="name">${experience.name}</h2>
+      //       <div class="timeline">${experience.timeline}</div>
+      //     </div>
+      //     `;
+      //     experienceContainer.appendChild(experienceDiv);
+      // });
     })
     .catch((error) => console.error("Error fetching data:", error));
 });
