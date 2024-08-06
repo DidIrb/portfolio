@@ -138,6 +138,19 @@ body section {
   padding-bottom: 7px;
   border-top: 1px solild black;
 }
+.get_code {
+  position: fixed;
+  bottom: 0.6em;
+  right: 0.6em;
+}
+.get_code .badge {
+  font-size: 13px;
+  padding: 4px 14px;
+}
+.hidden-github { 
+  display: none;
+  height: 0;
+}
 .image img {
   width: 100%;
   height: auto;
@@ -188,5 +201,14 @@ body section {
   .image img {
     width: 100%;
     height: auto;
+  }
+  .get_code {
+    display: none;
+  }
+  .hidden-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
   }
 }

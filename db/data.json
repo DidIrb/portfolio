@@ -16,6 +16,11 @@
           "badgeIcon": "/public/icons/web.svg",
           "badgeText": "Production",
           "link": "https://resc.irbaye.com"
+        },
+        {
+          "badgeIcon": "/public/icons/github.svg",
+          "badgeText": "Open Source",
+          "link": "https://github.com/DidIrb/resources.git"
         }
       ]
     },
@@ -23,7 +28,7 @@
       "name": "Resources API",
       "timeline": "July 2024 - Aug 2024",
       "description": "Manually entering data into a JSON file is tedious as such, using Express, and Mongo DB we created a RESTful Service to manage the data",
-      "image": "/public/images/resc-api-min.jpg",
+      "image": "/public/resc-api-min.jpg",
       "light": ["Express", "Typescript", "Mongo-DB"],
       "links": [
         {
@@ -35,6 +40,11 @@
           "badgeIcon": "/public/icons/web.svg",
           "badgeText": "Production",
           "link": "https://api.resc.irbaye.com"
+        },
+        {
+          "badgeIcon": "/public/icons/github.svg",
+          "badgeText": "Open Source",
+          "link": "https://github.com/DidIrb/resources-server.git"
         }
       ]
     },
