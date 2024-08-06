@@ -140,15 +140,15 @@ body section {
 }
 .get_code {
   position: fixed!important;
-  bottom: 0.6em;
-  right: 0.6em;
+  bottom: 14px;
+  right:14px!important;
 }
 .get_code .badge {
   font-size: 13px;
   padding: 4px 14px;
 }
 .hidden-github { 
-  display: none;
+  display: none!important;
   height: 0;
 }
 .image img {
@@ -203,7 +203,7 @@ body section {
     height: auto;
   }
   .get_code {
-    display: none;
+    display: none!important;
   }
   .hidden-github {
     display: flex;
