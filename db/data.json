@@ -1,6 +1,44 @@
 {
   "projects": [
     {
+      "name": "Resources",
+      "timeline": "July 2024 - Aug 2024",
+      "description": "There are millions of resources available for everyone to use, search engines exposed these resources to us, this platform aims to do the same",
+      "image": "/public/images/resources-min.jpg",
+      "light": ["React", "Vite", "Typescript", "Shadcn UI"],
+      "links": [
+        {
+          "badgeIcon": "/public/icons/web.svg",
+          "badgeText": "Preview",
+          "link": "https://resources.ditestenv.com"
+        },
+        {
+          "badgeIcon": "/public/icons/web.svg",
+          "badgeText": "Production",
+          "link": "https://resc.irbaye.com"
+        }
+      ]
+    },
+    {
+      "name": "Resources API",
+      "timeline": "July 2024 - Aug 2024",
+      "description": "Manually entering data into a JSON file is tedious as such, using Express, and Mongo DB we created a RESTful Service to manage the data",
+      "image": "/public/images/resc-api-min.jpg",
+      "light": ["Express", "Typescript", "Mongo-DB"],
+      "links": [
+        {
+          "badgeIcon": "/public/icons/web.svg",
+          "badgeText": "Preview",
+          "link": "https://api.resc.ditestenv.com"
+        },
+        {
+          "badgeIcon": "/public/icons/web.svg",
+          "badgeText": "Production",
+          "link": "https://api.resc.irbaye.com"
+        }
+      ]
+    },
+    {
       "name": "Trackey",
       "timeline": "Jan 2024 - Feb 2024",
       "description": "This is a simple web application that allows users to document their job application, and visualizes the data as time goes on, it has resources like templates it is privacy focused and no data is saved",
@@ -26,6 +64,9 @@
     { "name": "Spring-boot" },
     { "name": "Supabase" },
     { "name": "MySQL" },
+    { "name": "Mongo-DB" },
+    { "name": "Postgres" },
+    { "name": "Github Actions" },
     { "name": "Java" }
   ]
 }

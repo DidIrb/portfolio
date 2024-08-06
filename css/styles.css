@@ -7,11 +7,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+p {
+  font-size: 17px;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+}
 html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: calibri, 'Trebuchet MS', sans-serif ;
   font-size: 15px;
   min-height: 100vh;
   padding-bottom: 20px;
@@ -26,7 +35,7 @@ a {
   font-weight: bold;
 }
 #home {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 .h-100 {
   height: 100vh;
@@ -52,7 +61,7 @@ a {
 body section {
   display: flex;
   flex-direction: column;
-  padding-top: 16px;
+  padding-top: 8px;
   justify-content: center;
   gap: 12px;
   max-width: 600px;
@@ -140,6 +149,7 @@ body section {
 .name {
   font-size: medium;
   font-weight: 600;
+  font-size: 18px;
 }
 .timeline {
   font-size: 12px;
@@ -147,7 +157,7 @@ body section {
   font-weight: 500;
 }
 .description {
-  font-size: 12px;
+  font-size: 13px;
   color: rgb(40, 40, 40);
   margin-top: -2px;
 }
