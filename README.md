@@ -7,7 +7,7 @@ Data is rendered dynamically, but in this case the data is available inside a JS
 ##### SEO Ready
 
 <p>
-<img src="/public/performance.jpg" alt="SEO performance">
+<img src="/public/images/performance.jpg" alt="SEO performance">
 </p>
 
 
